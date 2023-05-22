@@ -8,9 +8,9 @@ print(numero)
 
 for i in range(numero):
     print(i)
-   if(i % 2 == 0):
+    if(i % 2 == 0):
        par +=1
-   else:
+    else:
        impar +=1
 
 print(f"Números Pares: {par}\n"
