@@ -25,4 +25,13 @@ elif(salario_Atual >=1000.01) and (salario_Atual <= 2000.00):
     novoSalario = salario_Atual + aumento
     print(f"Valor do aumento: R$ {aumento}\n"
           f"O valor do salário corrigido a partir desse aumento será R$ {novoSalario}")
-elif(salario_Atual )
+elif(salario_Atual >= 2000.01) and (salario_Atual <= 3000.00):
+    aumento = (salario_Atual * 15) / 100
+    novoSalario = salario_Atual + aumento
+    print(f"Valor do aumento: R$ {aumento}\n"
+          f"O valor do salário corrigido a partir desse aumento será R$ {novoSalario}")
+else:
+    aumento = (salario_Atual * 10) / 100
+    novoSalario = salario_Atual + aumento
+    print(f"Valor do aumento: R$ {aumento}\n"
+          f"O valor do salário corrigido a partir desse aumento será R$ {novoSalario}")
